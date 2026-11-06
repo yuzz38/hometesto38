@@ -1,0 +1,13 @@
+{
+  "name": "Домашний вкус — домашние полуфабрикаты, Иркутск",
+  "short_name": "Домашний вкус",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4efe4",
+  "theme_color": "#1e3a2a",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

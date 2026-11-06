@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /*?*utm_
+
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term /
+
+# AI-ассистенты и генеративный поиск (GEO): разрешаем индексацию
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: YandexGPT
+Allow: /
+
+Host: https://hometeste38.ru
+Sitemap: https://hometeste38.ru/sitemap.xml
